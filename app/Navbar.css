@@ -1,0 +1,54 @@
+/* Ivan */
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    width: 5.5vw;
+    text-decoration: none;
+    color: black;
+    background-color: #f5f5f5;
+    /* border-left: 1.5px solid #e0e0e0;
+    border-radius: 0px;
+    animation: tab-out 0.4s 1; */
+}
+
+.tabs:hover {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    animation: tab-in 0.4s 1;
+}
+
+@keyframes tab-in { /* hover effect for the tabs, creates a fade in and out effect when hovering over tabs */
+    0% {
+        background-color: #f8f9fa;
+        border-bottom: #e0e0e0;
+        borer-radius: 0px
+    }
+
+    100% {
+        background-color: #e0e0e0;
+        border-bottom: #e0e0e0;
+        border-radius: 10px;
+    }
+}
+
+@keyframes tab-out { /* creates a delayed fade effect when hovering out from tabs */
+    0% {
+        background-color: #e0e0e0;
+        border-bottom: #e0e0e0;
+        border-radius: 10px;
+    }
+
+    100% {
+        background-color: #f8f9fa;
+        border-bottom: #e0e0e0;
+        border-radius: 0px;
+    }
+}

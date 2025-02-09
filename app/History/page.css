@@ -1,0 +1,30 @@
+/* Jun Heng */
+@import "bootstrap/dist/css/bootstrap.min.css";
+/* Style the title of the page */
+#header {
+  text-align: center;
+  padding: 250px;
+  font-size: 40px;
+  background-image: url('/public/background.jpg');
+  /* Get header background image */
+}
+
+/* Style the body */
+div {
+  font-size: 20px;
+  text-align: justify;
+  padding: 0px;
+  margin: 40px;
+}
+
+/* Style the header */
+.Header {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Apply background color to all elements */
+* {
+  background: #f8f9fa;
+}

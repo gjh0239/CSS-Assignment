@@ -1,0 +1,29 @@
+/* Jun Hang */
+
+h1 {
+	font-size: 1.5em;
+	
+}
+
+.board {
+	border-radius: 0px;
+}
+
+.row {
+	height: 35px;
+}
+
+.cell {
+	width: 35px;
+	height: 35px;
+	outline: 2px solid rgb(68, 53, 80);
+	display: inline-block;
+}
+
+.cell-green {
+	background-color: lime;
+}
+
+.cell-red {
+	background-color: red;
+}
